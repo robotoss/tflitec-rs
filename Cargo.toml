@@ -1,12 +1,18 @@
 [package]
 name = "tflitec"
-version = "0.6.0"
+version = "0.6.1"
 authors = ["ebraraktas <ebrar@voys.ai>"]
 edition = "2018"
 license = "MIT"
 description = "A safe Rust wrapper of TensorFlow Lite C API supporting x86_64 and ARM (iOS, Android)"
 repository = "https://github.com/VoysAI/tflitec-rs"
-keywords = ["bindings", "tensorflow", "machine-learning", "ffi", "cross-platform"]
+keywords = [
+    "bindings",
+    "tensorflow",
+    "machine-learning",
+    "ffi",
+    "cross-platform",
+]
 categories = ["api-bindings", "science"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
@@ -16,7 +22,7 @@ name = "tflitec"
 [dependencies]
 
 [build-dependencies]
-bindgen = "0.65"
+bindgen = "0.69"
 fs_extra = "1.3"
 curl = "0.4"
 
